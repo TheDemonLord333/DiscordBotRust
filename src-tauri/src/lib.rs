@@ -137,14 +137,3 @@ pub async fn set_bot_presence(status: Option<String>, activity_name: Option<Stri
         Err(format!("Failed to update presence: {}", response.status()))
     }
 }
-
-// In deiner main.rs registrieren:
-// tauri::Builder::default()
-//     .invoke_handler(tauri::generate_handler![
-//         get_bot_status,
-//         send_message,
-//         get_guilds,
-//         set_bot_presence
-//     ])
-//     .run(tauri::generate_context!())
-//     .expect("error while running tauri application");
