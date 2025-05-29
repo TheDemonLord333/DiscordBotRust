@@ -5,8 +5,7 @@
   "build": {
     "beforeDevCommand": "",
     "beforeBuildCommand": "",
-    "frontendDist": "../src",
-    "devUrl": "../src"
+    "frontendDist": "../src"
   },
   "app": {
     "windows": [
